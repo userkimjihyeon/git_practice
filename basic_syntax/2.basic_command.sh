@@ -42,3 +42,10 @@ git diff A B
 git diff commitID1 commitID2
 git diff 브랜치1 브랜치2
 
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
+
+# 이미 push된 commit사항 되돌리는(완전한 취소x) commitID생성
+git revert 커밋ID
+
