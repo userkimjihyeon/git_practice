@@ -71,5 +71,3 @@ git tag
 git branch 브랜치명
 
 # 새로운 작업시작시에, main을 최신화(git pull origin main)한 후에 main을 기준으로 branch생성
-
-코드수정
